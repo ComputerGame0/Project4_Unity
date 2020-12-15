@@ -43,7 +43,7 @@ Enter() <br />
 בעזרת 2 הרים (דרכם השחקן לא יכול לעבור) וכך השחקן מוגבל בתזוזתו. <br />
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/3-enemies/Change_the_world.cs) <br />
 
-ויצרנו מחלקה המחזיקה מצש נוכחי של האויב: <br />
+ויצרנו מחלקה המחזיקה מצב נוכחי של האויב: <br />
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/3-enemies/StateMachine.cs) <br />
 
 ויצרנו מחלקה העוברת בין במצבים השונים לפי תזוזות השחקן ומיקומיו: <br />
@@ -60,5 +60,22 @@ X וחיצי המקלדת
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/2-player/KeyboardQuarrying.cs) <br />
 
 ## 3) מימשו יצירת עולם באופן רנדומלי ושינויים על מנת שיווצר עולם הגיוני
+לקחנו את הקוד הקיים היוצר מערה מ-2 סוגי אריחים  <br />
+ושינינו על מנת שנוכל לקבל עוד סוג אריח להוספה.  <br />
+שינינו בקוד את האפשרות ליצור מספרים רנדומלים  <br />
+ <br /> במקום ליצור 0/1
+ <br /> יצרנו  0/1/2
+בצורה רנדומלית <br />
+ובקוד אשר מסדר את המפה  <br />
+הוספנו את האופציה להתחשב גם באריח נוסף כך שאם מזהה לידו את אותו הסוג  <br /> 
+משתנה לפיו.  <br />
 
+הקוד הבא אחראי על יצירת המפה בצורה רנדומלית ושינוי המפה לצורה הגיונית: <br />
+
+[תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/4-generation/CaveGenerator.cs) <br />
+
+הקוד הבא אחראי על ציור המפה ע"י האריחים השונים: <br />
+
+[תלחץ כאן על מנת לראות את הקוד האחראי]( https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/4-generation/TilemapCaveGenerator.cs
+) <br />
 
