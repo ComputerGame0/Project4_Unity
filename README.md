@@ -103,7 +103,7 @@ X וחיצי המקלדת
 
 בקוד זה של החץ, מיקום החץ משתנה בהתאם לעולם ההולך וגדל <br />
 
-בנוסף בכל כניסה ל"שלב" חדש שינינו את גדול העולם <br />
+בנוסף בכל כניסה ל"שלב" חדש שינינו את גודל העולם <br />
  
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/4-generation/TilemapCaveGenerator.cs )
 
