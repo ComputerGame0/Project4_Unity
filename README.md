@@ -14,6 +14,13 @@ Exit() <br />
 Enter() <br />
 וכך הפעלנו כל מצב. <br />
 
+![תמונה2](https://user-images.githubusercontent.com/57682267/102245518-54cce580-3f06-11eb-8e28-1abd2657aae6.png)
+
+בתמונה ניתן לראות את השחקן מתחבא בשיחים, <br />
+האויב חסם אותו משני צידיו<br />
+והאויב לא נמצא ברדיפה כי השחקן רחוק ממנו, <br />
+האויב נמצא במצב שמירה <br />
+
 [תלחץ כאן על מנת לראות את הסצנה](https://github.com/ComputerGame0/Project4_Unity/tree/main/Assets/Scenes/3-enemies) <br />
 
 החלפנו את מצבי האויב כך שיעשה את הדברים הבאים : <br />
@@ -49,7 +56,6 @@ Enter() <br />
 ויצרנו מחלקה העוברת בין במצבים השונים לפי תזוזות השחקן ומיקומיו: <br />
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/3-enemies/EnemyControllerStateMashine.cs) <br />
 
-![תמונה2](https://user-images.githubusercontent.com/57682267/102245518-54cce580-3f06-11eb-8e28-1abd2657aae6.png)
 
 
 ## 2) בנוסף מימשו שינוי ביכולות השחקן:
@@ -71,6 +77,9 @@ X וחיצי המקלדת
 ובקוד אשר מסדר את המפה  <br />
 הוספנו את האופציה להתחשב גם באריח נוסף כך שאם מזהה לידו את אותו הסוג  <br /> 
 משתנה לפיו.  <br />
+
+![תמונה1](https://user-images.githubusercontent.com/57682267/102245824-ae351480-3f06-11eb-9dc7-ad3c571239df.png)
+
 
 הקוד הבא אחראי על יצירת המפה בצורה רנדומלית ושינוי המפה לצורה הגיונית: <br />
 
