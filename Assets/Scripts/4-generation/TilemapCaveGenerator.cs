@@ -27,7 +27,7 @@ public class TilemapCaveGenerator: MonoBehaviour {
     [SerializeField] float randomFillPercent = 0.5f;
 
     [Tooltip("Length and height of the grid")]
-    [SerializeField] int gridSize = 100;
+    [SerializeField] public static int gridSize = 10;
 
     [Tooltip("How many steps do we want to simulate?")]
     [SerializeField] int simulationSteps = 20;
@@ -37,10 +37,14 @@ public class TilemapCaveGenerator: MonoBehaviour {
 
     private CaveGenerator caveGenerator;
 
+    public int getgrid()
+    {
+        return gridSize;
+    }
     void Start()  {
         //To get the same random numbers each time we run the script
         Random.InitState(100);
-
+        gridSize = gridSize + 2;
         caveGenerator = new CaveGenerator(randomFillPercent, gridSize);
         caveGenerator.RandomizeMap();
                 
