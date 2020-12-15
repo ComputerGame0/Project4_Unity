@@ -95,3 +95,26 @@ X וחיצי המקלדת
 ) <br />
 
 ![תמונה1](https://user-images.githubusercontent.com/57682267/102245824-ae351480-3f06-11eb-9dc7-ad3c571239df.png)
+
+## 4)  מימשו יצירת עולם באופן אינסופי על מנת שהשחקן יוכל לשחק בעולם ההולך וגדל 
+
+יצרנו חץ העובר לשלב הבא <br />
+[תלחץ כאן על מנת לראות את הקוד האחראי]( https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/4-generation/NextLevel.cs)
+
+בקוד זה של החץ, מיקום החץ משתנה בהתאם לעולם ההולך וגדל <br />
+
+בנוסף בכל כניסה ל"שלב" חדש שינינו את גדול העולם <br />
+ 
+[תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/4-generation/TilemapCaveGenerator.cs )
+
+זאת ע"י הפיכת משתנה <br /> 
+grid size <br /> 
+למשתנה סטטי אותו אנחנו מגדילות בכל כניסה לשלב <br />
+בכל פונקציית <br /> 
+start <br /> 
+
+בנוסף האויבים רודפים אחרי השחקן בהתאם לחוקי העולם
+
+[תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/3-enemies/Chaser.cs) <br />
+
+![תמונה2](https://user-images.githubusercontent.com/57682267/102272127-f1a07a80-3f28-11eb-986d-7a459543b505.png)
