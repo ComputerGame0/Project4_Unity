@@ -49,6 +49,8 @@ Enter() <br />
 ויצרנו מחלקה העוברת בין במצבים השונים לפי תזוזות השחקן ומיקומיו: <br />
 [תלחץ כאן על מנת לראות את הקוד האחראי](https://github.com/ComputerGame0/Project4_Unity/blob/main/Assets/Scripts/3-enemies/EnemyControllerStateMashine.cs) <br />
 
+![תמונה2](https://user-images.githubusercontent.com/57682267/102245518-54cce580-3f06-11eb-8e28-1abd2657aae6.png)
+
 
 ## 2) בנוסף מימשו שינוי ביכולות השחקן:
 
